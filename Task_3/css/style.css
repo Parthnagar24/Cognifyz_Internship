@@ -1,0 +1,33 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f5f5f5;
+  color: #333;
+}
+
+h1,
+h2 {
+  font-weight: 700;
+}
+
+section {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+section:hover {
+  transform: scale(1.02);
+}
+
+#animateBtn {
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#animateBtn.clicked {
+  background-color: #28a745 !important;
+  transform: scale(1.1);
+  color: white;
+  box-shadow: 0 0 15px #28a745;
+}
