@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 4 - Cognifyz Internship</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Cognifyz</h1>
+      <p>Where Data Meets Intelligence</p>
+    </header>
+
+    <main>
+      <section id="form-section">
+        <h2>User Registration</h2>
+        <form id="registrationForm">
+          <label>
+            Username:
+            <input type="text" id="username" required />
+          </label>
+
+          <label>
+            Email:
+            <input type="email" id="email" required />
+          </label>
+
+          <label>
+            Password:
+            <input type="password" id="password" required />
+          </label>
+
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+
+      <section id="result-section" class="hidden">
+        <h3>Registration Successful!</h3>
+        <p id="user-message"></p>
+        <button onclick="goBack()">Go Back</button>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
